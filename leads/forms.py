@@ -11,14 +11,14 @@ class LeadModelForm(forms.ModelForm):
     class Meta:
         model = Lead
         fields = (
-            'first_name',
-            'last_name',
-            'age',
-            'agent',
-            'description',
-            'phone_number',
-            'email',
-            'profile_picture'
+            "first_name",
+            "last_name",
+            "age",
+            "agent",
+            "description",
+            "phone_number",
+            "email",
+            "profile_picture",
         )
 
     def clean_first_name(self):
@@ -35,7 +35,6 @@ class LeadModelForm(forms.ModelForm):
         #     raise ValidationError("Your name is not Joe Soap")
 
 
-
 class LeadForm(forms.Form):
     first_name = forms.CharField()
     last_name = forms.CharField()
@@ -46,7 +45,7 @@ class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = User
         fields = ("username",)
-        field_classes = {'username': UsernameField}
+        field_classes = {"username": UsernameField}
 
 
 class AssignAgentForm(forms.Form):
@@ -62,23 +61,16 @@ class AssignAgentForm(forms.Form):
 class LeadCategoryUpdateForm(forms.ModelForm):
     class Meta:
         model = Lead
-        fields = (
-            'category',
-        )
+        fields = ("category",)
 
 
 class CategoryModelForm(forms.ModelForm):
     class Meta:
         model = Category
-        fields = (
-            'name',
-        )
+        fields = ("name",)
 
 
 class FollowUpModelForm(forms.ModelForm):
     class Meta:
         model = FollowUp
-        fields = (
-            'notes',
-            'file'
-        )
+        fields = ("notes", "file")

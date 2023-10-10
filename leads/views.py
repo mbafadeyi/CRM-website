@@ -468,7 +468,13 @@ class FollowUpDeleteView(OrganisorAndLoginRequiredMixin, generic.DeleteView):
 
 class LeadJsonView(generic.View):
     def get(self, request, *args, **kwargs):
-        qs = list(Lead.objects.all().values("first_name", "last_name", "age"))
+        qs = list(
+            Lead.objects.all().values(
+                "first_name",
+                "last_name",
+                "age",
+            )
+        )
 
         return JsonResponse(
             {

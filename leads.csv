@@ -1,0 +1,9 @@
+first_name,last_name,age,email
+joe,soap,35,joesoap@django.com
+mary,soap,21,marysoap@django.com
+bob,soap,16,bobsoap@django.com
+barbara,soap,43,barbarasoap@django.com
+billy,soap,32,billysoap@django.com
+bob,soap,29,bobsoap@django.com
+jack,soap,25,jacksoap@django.com
+jill,soap,20,jillsoap@django.com
