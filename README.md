@@ -1,5 +1,12 @@
 # CRM website
-This is a CRM website fully built with Django, TailwindCSS, HTML, PostgreSQL.
+This is a CRM website that allows users to fully create and manage leads. Features like Signals, Logging etc. were used to enrich the website.
+
+## Technology
+<li>Python</li>
+<li>Django</li>
+<li>TailwindCSS</li>
+<li>HTML</li>
+<li>PostgreSQL</li>
 
 ## Getting Started
 To run this project you will need to set your environment variables.
