@@ -4,8 +4,8 @@ This is a CRM website that allows users to fully create and manage leads. Featur
 ## Technology
 <li>Python</li>
 <li>Django</li>
-<li>TailwindCSS</li>
 <li>HTML</li>
+<li>TailwindCSS</li>
 <li>PostgreSQL</li>
 
 ## Getting Started
