@@ -1,5 +1,5 @@
 # CRM website
-This is a CRM website that allows users to fully create and manage leads. Features like Signals, Logging etc. were used to enrich the website.
+This is a CRM website that allows users to fully create and manage leads. Features like Signals, Logging, Django Messages etc. were used to enrich the website.
 
 ## Technology
 <li>Python</li>
