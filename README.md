@@ -1,5 +1,5 @@
 # CRM website
-This is a CRM website fully built with Django, TailwindCSS, HTML, PostgreSQL and deployed on DigitalOcean.
+This is a CRM website fully built with Django, TailwindCSS, HTML, PostgreSQL.
 
 ## Getting Started
 To run this project you will need to set your environment variables.
